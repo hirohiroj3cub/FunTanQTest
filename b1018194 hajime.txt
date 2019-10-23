@@ -3,28 +3,37 @@ b1018194 Ito Hajime [Git説明資料]
 
 #gitファイルを作成
 　git init
+
 #リモートリポジトリを追加
 　git remote add [remote_name] [remote_URL]
+
 #リモートのマスターブランチを最新の状態に更新
 　git pull [remote_name] master
+
 #ローカルブランチを作成
 　git checkout -b [local_branch]
+
 #ローカルブランチに移動
 　git checkout [local_branch]
-#ローカルブランチを最新の状態に更新
-　git pull [remote_name] master
+
 #すべてのファイルをインデックスに追加
 　git add .
+
 ＃インデックスをローカルブランチのリポジトリに更新
 　git commit 
+
 ＃ローカルブランチの更新をリモートリポジトリに更新
 　git push [remote_name] [remote_branch]
+
 ＃マスターブランチに移動
 　git checkout master
+
 ＃ローカルブランチをローカルのマスターブランチにマージ
 　git merge [local_branch]
+
 ＃マージしたローカルのマスターブランチの更新をリモートのマスターブランチに更新
 　git push [remote_name] master
+
 
 ＊流れ＊
 
