@@ -1,5 +1,6 @@
 b1018194 Ito Hajime [Git説明資料]
 
+*Example*
 
 #gitファイルを作成
 　git init
@@ -7,7 +8,7 @@ b1018194 Ito Hajime [Git説明資料]
 #リモートリポジトリを追加
 　git remote add [remote_name] [remote_URL]
 
-#リモートのマスターブランチを最新の状態に更新
+#リモートのマスターブランチとローカルのマスターブランチを最新の状態に統合
 　git pull [remote_name] master
 
 #ローカルブランチを作成
@@ -15,6 +16,9 @@ b1018194 Ito Hajime [Git説明資料]
 
 #ローカルブランチに移動
 　git checkout [local_branch]
+
+#リモートのマスターブランチをローカルの自分のブランチに統合
+  git pull [remote_name] [remote_master_branch]
 
 #すべてのファイルをインデックスに追加
 　git add .
